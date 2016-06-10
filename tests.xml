@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Javajoes suite" parallel="tests" thread-count = "2" >
+	<test name="swati test">
+		<classes>
+			<class name="week4.Day1Class.SwatiLifeCycle" />
+		</classes>
+	</test>
+	
+	<test verbose = "2" name="pashanth test">
+		<classes>
+			<class name="week4.Day1Class.PrashanthLifeCycle"/>
+		</classes>
+	</test>
+
+
+</suite>

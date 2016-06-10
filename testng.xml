@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CreateandLead suite">
+	
+	<test  name="Lead test">
+		<classes>
+			<class name="week4.day2.Lead" />
+		</classes>
+	</test>
+	<test name="Create test">
+		<classes>
+			<class name="week4.day2.Create" />
+		</classes>
+	</test>
+	<!-- Default test -->
+</suite> <!-- Default suite -->

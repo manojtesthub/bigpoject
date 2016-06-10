@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "KARIMS BUSINESS" parallel="classes" thread-count ="2">
+	<test name = "JAVAJOES">
+		<classes>
+			<class name = "week4.Day1Class.SwatiLifeCycle"/>
+			<class name = "week4.Day1Class.PrashanthLifeCycle"/>
+		</classes>
+	</test>
+<!--  Default test  -->
+</suite>
+<!--  Default suite  -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CreateandLead suite]" parallel="tests">
+  <test name="Create test(failed)" parallel="tests">
+    <classes>
+      <class name="week4.day2.Create">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="create"/>
+          <include name="afterTest"/>
+          <include name="BeforeTest"/>
+          <include name="BeforeSuite"/>
+        </methods>
+      </class> <!-- week4.day2.Create -->
+      <class name="week4.day2.Lead">
+        <methods>
+          <include name="afterTest"/>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- week4.day2.Lead -->
+    </classes>
+  </test> <!-- Create test(failed) -->
+</suite> <!-- Failed suite [CreateandLead suite] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Group Suite]">
+  <parameter name="Browser" value="ChromeDriver"/>
+  <test name="homeork(failed)">
+    <parameter name="Browser" value="ChromeDriver"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="week4.Homework.CreateLead">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="fillform"/>
+        </methods>
+      </class> <!-- week4.Homework.CreateLead -->
+    </classes>
+  </test> <!-- homeork(failed) -->
+</suite> <!-- Failed suite [Group Suite] -->

@@ -1,0 +1,22 @@
+<suite name="Group Suite" verbose="2">
+	<groups>
+		<run>
+			<!--<exclude name="sanity" />-->
+			<!-- <include name="delivery" /> -->
+		<!-- 	<include name="s.*" />-->
+			<include name="sanity" />
+			
+		</run>
+	</groups>
+	<test name="homeork" parallel = "none"  >
+		<parameter name="Browser" value="ChromeDriver" />
+	
+		<classes>
+			<class name="week4.Homework.CreateLead" />
+			<class name="week4.Homework.OpenTapsWrapper" />
+			
+		</classes>
+	</test>
+
+
+</suite> 

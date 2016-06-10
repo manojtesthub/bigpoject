@@ -1,0 +1,21 @@
+<suite name="karimbusiness Suite" verbose="2">
+	<parameter name="discount" value="10" />
+	<groups>
+		<run>
+			<!-- <exclude name="dinein" /> -->
+			<!-- <include name="delivery" /> -->
+			<include name="d.*" />
+
+		</run>
+	</groups>
+	<test name="k2b" parallel="classes" thread-count="2">
+		<parameter name="Newdiscount" value="5" />
+
+		<classes>
+			<class name="week4.Day2Class.ShaheenLifeCycle" />
+			<class name="week4.Day2Class.IrfanLifeCycle" />
+		</classes>
+	</test>
+
+
+</suite> 

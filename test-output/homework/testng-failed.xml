@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [homework]">
+  <parameter name="firefox" value="http://demo1.opentaps.org/opentaps/control/main"/>
+  <parameter name="chrome" value="http://demo1.opentaps.org/opentaps/control/main"/>
+  <test name="Create(failed)">
+    <parameter name="firefox" value="http://demo1.opentaps.org/opentaps/control/main"/>
+    <classes>
+      <class name="week4.day2.Create">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- week4.day2.Create -->
+      <class name="week4.day2.Lead">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="BeforeTest"/>
+          <include name="BeforeSuite"/>
+        </methods>
+      </class> <!-- week4.day2.Lead -->
+    </classes>
+  </test> <!-- Create(failed) -->
+  <test name="Lead(failed)">
+    <parameter name="chrome" value="http://demo1.opentaps.org/opentaps/control/main"/>
+    <classes>
+      <class name="week4.day2.Create">
+        <methods>
+          <include name="afterTest"/>
+          <include name="BeforeTest"/>
+        </methods>
+      </class> <!-- week4.day2.Create -->
+      <class name="week4.day2.Lead">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="BeforeTest"/>
+          <include name="BeforeSuite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- week4.day2.Lead -->
+    </classes>
+  </test> <!-- Lead(failed) -->
+</suite> <!-- Failed suite [homework] -->

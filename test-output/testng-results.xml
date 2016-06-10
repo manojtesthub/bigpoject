@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6922" started-at="2016-05-19T11:48:18Z" finished-at="2016-05-19T11:48:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6922" started-at="2016-05-19T11:48:18Z" finished-at="2016-05-19T11:48:25Z">
+      <class name="week5.day2HW.Hw4ReadDatalogin">
+        <test-method status="PASS" signature="Opentaps(java.lang.String, java.lang.String)[pri:0, instance:week5.day2HW.Hw4ReadDatalogin@7e9611]" name="Opentaps" duration-ms="5875" started-at="2016-05-19T17:18:19Z" data-provider="login" finished-at="2016-05-19T17:18:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Opentaps -->
+      </class> <!-- week5.day2HW.Hw4ReadDatalogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

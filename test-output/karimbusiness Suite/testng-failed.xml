@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [karimbusiness Suite]">
+  <parameter name="Newdiscount" value="5"/>
+  <parameter name="discount" value="10"/>
+  <test name="k2b(failed)" parallel="classes">
+    <parameter name="Newdiscount" value="5"/>
+    <groups>
+      <run>
+        <include name="d.*"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="week4.Groups.PrashanthLifeCycle">
+        <methods>
+          <include name="changeToHisAttire"/>
+          <include name="changeToDeliveryAttire"/>
+          <include name="driverAndDeliver"/>
+        </methods>
+      </class> <!-- week4.Groups.PrashanthLifeCycle -->
+      <class name="week4.Groups.SwatiLifeCycle">
+        <methods>
+          <include name="cookAndServePizzas"/>
+          <include name="siginOutAndClose"/>
+          <include name="cookAndServeDoNuts"/>
+          <include name="cleanTheTable"/>
+          <include name="changeToHerAttire"/>
+          <include name="changeToStoreAttire"/>
+          <include name="takeAndBillOrder"/>
+          <include name="wakeupAndMakeup"/>
+          <include name="openANdSignin"/>
+          <include name="refreshAndSleep"/>
+        </methods>
+      </class> <!-- week4.Groups.SwatiLifeCycle -->
+    </classes>
+  </test> <!-- k2b(failed) -->
+</suite> <!-- Failed suite [karimbusiness Suite] -->

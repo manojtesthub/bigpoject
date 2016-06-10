@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testing]">
+  <parameter name="chrome" value="ChromeDriver"/>
+  <test name="tester(failed)">
+    <classes>
+      <class name="week4.Homework.CreateLead">
+        <methods>
+          <include name="BeforeSuite"/>
+          <include name="launchbrowser"/>
+          <include name="BeforeTest"/>
+          <include name="fillform"/>
+        </methods>
+      </class> <!-- week4.Homework.CreateLead -->
+    </classes>
+  </test> <!-- tester(failed) -->
+</suite> <!-- Failed suite [testing] -->
